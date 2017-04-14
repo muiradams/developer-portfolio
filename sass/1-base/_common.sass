@@ -1,0 +1,45 @@
+body
+  background-color: $black
+  color: $gray
+  font-family: $main-font
+  font-weight: $regular
+  letter-spacing: 1.5px
+  margin: 0
+
+h1,h2,h3,h4
+  font-weight: $bold
+  margin: 0
+  text-align: center
+
+h1
+  color: $white
+  font-size: 5em
+  line-height: .75em
+
+h2
+  color: $dark-gray
+  font-size: 2.1em
+
+h3
+  color: $white
+  font-size: 2.1em
+
+h4
+  color: lighten($gray, 10%)
+  font-size: 1.5em
+  text-align: left
+
+h5
+  font-size: 0.75em
+  font-weight: $light
+
+p
+  color: $gray
+  text-align: justify
+
+a
+  color: $brand-color
+  &:focus
+    color: darken($brand-color, 20%)
+  &:hover
+    color: darken($brand-color, 20%)
